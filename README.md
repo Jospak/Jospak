@@ -8,14 +8,17 @@ Virology && Reverse Engineering && Programmer
 - 🤔 I’m looking for help with Programmer
 - 📫 How to reach me: Jospak@proton.me
 
-<h1 align="center"> My Skills </h1>
-    <img align="top" src="cpp.png" width="100px" height="100px" style="object-fit: cover;">
-    <img align="top" src="pyton.png" width="100px" height="100px" style="object-fit: cover;">
-    <img align="top" src="csharp.png" width="100px" height="100px" style="object-fit: cover;">
-    <img align="top" src="ts.png" width="100px" height="100px" style="object-fit: cover;">
-    <img align="top" src="node.png" width="100px" height="100px" style="object-fit: cover;">
-    <img align="top" src="js.png" width="100px" height="100px" style="object-fit: cover;">
-    <img align="top" src="html.png" width="100px" height="100px" style="object-fit: cover;">
+<div align="center">
+    <img align="top" src="cpp.png" width="100px">
+    <img align="top" src="pyton.png" width="100px">
+    <img align="top" src="csharp.png" width="100px">
+    <img align="top" src="ts.png" width="100px">
+    <img align="top" src="node.png" width="100px">
+    <img align="top" src="js.png" width="100px">
+    <img align="top" src="html.png" width="100px">
+    <img align="top" src="css.png" width="100px">
+<!--     <img align="top" src="./skills/mongodb.png" width="100px">
+    <img align="top" src="./skills/sql.png" width="100px"> -->
 </div
 <br />
 <br />
