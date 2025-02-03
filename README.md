@@ -24,7 +24,6 @@ Virology && Reverse Engineering && Programmer
 <p align="center">
     <img align="top" src="https://github-readme-stats.vercel.app/api?username=Jospak&layout=compact&hide=html&theme=jolly&count_private=true&show_icons=true"
     alt="oswalgopal"/>
-<!--     <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oswalgopal&theme=jolly&count_private=true&show_icons=true" alt="languages"> -->
 </p>
-<p align="center">
-</p>
+<h1 align="center"> Contact me: </h1>
+<h1 align="center"> https://example.com </h1>
