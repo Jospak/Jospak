@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            transition: background 0.5s ease, color 0.5s ease;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+            animation: bounceIn 2s ease-out;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: translateY(-2000px); opacity: 0; }
+            60% { transform: translateY(30px); opacity: 1; }
+            80% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .links a {
+            display: inline-block;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            background-color: #333;
+            padding: 30px;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transform: translateX(-100%);
+            animation: slideIn 0.6s forwards;
+        }
+
+        @keyframes slideIn {
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .links a i {
+            font-size: 3em;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .links a:hover {
+            transform: scale(1.2);
+            background-color: #222;
+            color: transparent;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+
+        .links a:hover i {
+            transform: scale(1.3);
+            color: #fff;
+        }
+
+        .links a:nth-child(1) {
+            background-color: #7289da;
+        }
+
+        .links a:nth-child(2) {
+            background-color: #0088cc;
+        }
+
+        .links a:nth-child(3) {
+            background-color: #333;
+        }
+
+        .links a:nth-child(4) {
+            background-color: #ff0000;
+        }
+
+        .links a:nth-child(5) {
+            background-color: #000000; /* TikTok black */
+            color: white;
+        }
+
+        .links a:nth-child(6) {
+            background-color: #1db954;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://www.transparenttextures.org/patterns/diagonal-stripes-light.png');
+            opacity: 0.1;
+            z-index: -1;
+            animation: movingBackground 20s linear infinite;
+        }
+
+        @keyframes movingBackground {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 14px;
+            color: #ddd;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 3s ease-in;
+        }
+
+        .footer a {
+            color: #ff5d57;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #fff;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        .rainbow-text {
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 3s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 100% 0%; }
+            100% { background-position: 0% 0%; }
+        }
+
+        .links a:nth-child(3):hover i {
+            animation: rainbow 3s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <h1>Welcome to Interactive Website</h1>
+    <div class="links">
+        <a href="https://discord.gg/cS6qcnBStG" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://t.me/PAKY4KA" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        <a href="https://github.com/Jospak" target="_blank" class="rainbow-text"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@Jospak_Official" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@jospak_official" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="terminal.html"><i class="fas fa-terminal"></i></a>
+    </div>
+    <div class="footer">
+        <p>Made by Jospak</p>
+    </div>
+</body>
+</html>
