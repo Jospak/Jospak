@@ -6,7 +6,7 @@ const contactFormObj = {
 var myTerminal = new Terminal(10);
 terminal.appendChild(myTerminal.html);
 myTerminal.setTextSize('20px');
-myTerminal.setTextColor('#BE162D');
+myTerminal.setTextColor('#00FF00');
 myTerminal.blinkingCursor(true);
 myTerminal.setHeight(window.innerHeight);
 const date = new Date();
