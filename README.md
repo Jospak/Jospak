@@ -16,7 +16,8 @@ Virology && Reverse Engineering && Programmer
     <img align="top" src="ts.png" width="100px">
     <img align="top" src="node.png" width="100px">
     <img align="top" src="js.png" width="100px">
-    <img align="top" src="web.png" width="100px">
+    <img align="top" src="html.png" width="100px">
+    <img align="top" src="css.png" width="100px">
 <!--     <img align="top" src="./skills/mongodb.png" width="100px">
     <img align="top" src="./skills/sql.png" width="100px"> -->
 </div
