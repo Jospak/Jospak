@@ -10,8 +10,8 @@ Virology && Reverse Engineering && Programmer
 <h1 align="center"> My Skills </h1>
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
     <img align="top" src="cpp.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
-    <img align="top" src="pyton.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
     <img align="top" src="csharp.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
+    <img align="top" src="pyton.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
     <img align="top" src="ts.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
     <img align="top" src="node.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
     <img align="top" src="js.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
