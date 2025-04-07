@@ -13,7 +13,7 @@ Virology && Reverse Engineering && Programmer
     <img align="top" src="csharp.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
     <img align="top" src="js.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
     <img align="top" src="html.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
-    <img align="top" src="css.png" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
+    <img align="top" src="wb.jpg" width="100px" height="100px" style="object-fit: cover; margin: 10px;">
 </div>
 <br />
 <br />
