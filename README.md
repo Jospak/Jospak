@@ -22,6 +22,6 @@ Virology && Reverse Engineering && Programmer
     <img align="top" src="https://github-readme-stats.vercel.app/api?username=Jospak&layout=compact&hide=html&theme=jolly&count_private=true&show_icons=true"
     alt="oswalgopal"/>
 </p>
-<h1 align="center"> Contact me: </h1>
+<h1 align="center"> Personal site: </h1>
 <h1 align="center"> https://jospak.github.io/Jospak/ </h1>
 
